@@ -1,13 +1,15 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-
+import Header from "../components/Header";
+import { SITE_TITLE } from "../config/information";
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Elbouchouki's portfolio</title>
+        <title>{SITE_TITLE}</title>
       </Head>
-      <h1 className="bg-red-700">tester</h1>
+      {/* Header */}
+      <Header />
     </div>
   );
 };
