@@ -22,7 +22,10 @@ export const SOCIAL_MEDIA: SocialIconProps[] = [
 ];
 
 export const TYPE_WRITING: string[] = [
-  "Hi, My Name Is Elbouchouki Ahmed",
-  "I'am a Software Engineering Student",
+  "Hi, My name is Elbouchouki Ahmed",
+  "I'am a software egineering student",
+  "I ❤️ to turn coffee into code",
   // "I Spend Most of Time Coding Outstanding Projects Or Learning New Technologies",
 ];
+export const MY_BACKGROUND: string =
+  "I am Ahmed, still studying software engineering and distributed computing systems at ENSET Mohammedia. I would say that this portfolio presents me better than my words. I spend most of my time coding great projects or learning new technologies";

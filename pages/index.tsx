@@ -1,5 +1,6 @@
 import type { GetServerSideProps, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
+import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
@@ -23,9 +24,14 @@ const Home: NextPage<Props> = ({ github }) => {
       <Header />
 
       {/* Hero */}
-      <section id="hero" className="snap-center">
+      <section id="hero" className="snap-start">
         {/* <section id="hero"> */}
         <Hero user={github.user} />
+      </section>
+
+      {/* About */}
+      <section id="about" className="snap-center">
+        <About user={github.user} />
       </section>
     </div>
   );
