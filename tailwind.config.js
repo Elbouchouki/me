@@ -10,6 +10,11 @@ module.exports = {
       fontFamily: {
         mplus: ["'M PLUS Rounded 1c'", "Verdana", "sans-serif"],
       },
+      colors: {
+        "main-bg": "rgb(36,36,36)",
+        "main-gray": "#333333",
+        "main-orange": "#F7AB0A",
+      },
     },
   },
   plugins: [],
