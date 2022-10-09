@@ -3,6 +3,7 @@ import Head from "next/head";
 import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import WorkExperience from "../components/WorkExperience";
 
 import { SITE_TITLE } from "../config/information";
 
@@ -32,6 +33,11 @@ const Home: NextPage<Props> = ({ github }) => {
       {/* About */}
       <section id="about" className="snap-center">
         <About user={github.user} />
+      </section>
+
+      {/* WorkExperience */}
+      <section id="experience" className="snap-center">
+        <WorkExperience />
       </section>
     </div>
   );
