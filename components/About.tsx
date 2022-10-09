@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { IUser } from "../pages/api/github";
 import { MY_BACKGROUND } from "../config/information";
+import Title from "./Title";
 
 type Props = {
   user: IUser;
@@ -22,9 +23,7 @@ const About = ({ user }: Props) => {
       }}
       className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-2xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl font-semibold">
-        about
-      </h3>
+      <Title text="about" />
       <motion.img
         initial={{
           x: -200,

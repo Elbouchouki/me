@@ -80,3 +80,73 @@ export const EXPERIENCES: IExperience[] = [
     summary: ["point 1", "point 2", "point 3"],
   },
 ];
+export interface ISkill {
+  name: string;
+  icon: string;
+  percentage: number;
+}
+export const SKILLS: ISkill[] = [
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+    name: "NestJS",
+    percentage: 75,
+  },
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg",
+    name: "NodeJS",
+    percentage: 90,
+  },
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+    name: "NestJS",
+    percentage: 75,
+  },
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg",
+    name: "NodeJS",
+    percentage: 90,
+  },
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+    name: "NestJS",
+    percentage: 75,
+  },
+  {
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg",
+    name: "NodeJS",
+    percentage: 90,
+  },
+];
+
+export interface IProject {
+  title: string;
+  image: string;
+  description: string;
+}
+
+export const PROJECTS: IProject[] = [
+  {
+    image:
+      "https://s3-ap-southeast-2.amazonaws.com/focusbooster.cdn/Landing+pages/desktop-app-download/focus-booster-mac-and-windows-desktop-pomodoro-app.png",
+    title: "Intern Management",
+    description: "some project description here",
+  },
+  {
+    image:
+      "https://s3-ap-southeast-2.amazonaws.com/focusbooster.cdn/Landing+pages/desktop-app-download/focus-booster-mac-and-windows-desktop-pomodoro-app.png",
+    title: "Intern Management",
+    description: "some project description here",
+  },
+  {
+    image:
+      "https://s3-ap-southeast-2.amazonaws.com/focusbooster.cdn/Landing+pages/desktop-app-download/focus-booster-mac-and-windows-desktop-pomodoro-app.png",
+    title: "Intern Management",
+    description: "some project description here",
+  },
+  {
+    image:
+      "https://s3-ap-southeast-2.amazonaws.com/focusbooster.cdn/Landing+pages/desktop-app-download/focus-booster-mac-and-windows-desktop-pomodoro-app.png",
+    title: "Intern Management",
+    description: "some project description here",
+  },
+];

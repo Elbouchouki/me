@@ -3,6 +3,8 @@ import Head from "next/head";
 import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
 import WorkExperience from "../components/WorkExperience";
 
 import { SITE_TITLE } from "../config/information";
@@ -25,19 +27,29 @@ const Home: NextPage<Props> = ({ github }) => {
       <Header />
 
       {/* Hero */}
-      <section id="hero" className="snap-start">
+      <section id="Hero" className="snap-start">
         {/* <section id="hero"> */}
         <Hero user={github.user} />
       </section>
 
       {/* About */}
-      <section id="about" className="snap-center">
+      <section id="About" className="snap-center">
         <About user={github.user} />
       </section>
 
       {/* WorkExperience */}
-      <section id="experience" className="snap-center">
+      <section id="Experience" className="snap-center">
         <WorkExperience />
+      </section>
+
+      {/* Skills */}
+      <section id="Skills" className="snap-center">
+        <Skills />
+      </section>
+
+      {/* Project */}
+      <section id="Project" className="snap-center">
+        <Projects />
       </section>
     </div>
   );
